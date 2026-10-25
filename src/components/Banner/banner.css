@@ -1,0 +1,47 @@
+.banner_cont{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 166px;
+}
+
+.desc{
+    max-width: 649px;
+}
+
+.desc h1{
+    font-family: 'Rufina';
+    font-size: 86px;
+    color: #224f34;
+    margin-bottom: 27px;
+}
+
+.desc p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #224f34;
+    margin-bottom: 54px;
+    line-height: 220%;
+    letter-spacing: 3px;
+}
+
+.desc .bannerBtn{
+    padding: 22px 59px;
+    background-color: #224f34;
+    color: aliceblue;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.banner_img{
+    width: 570px;
+    height: 717px;
+
+}
+
+.banner_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

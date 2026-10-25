@@ -1,0 +1,96 @@
+.selling_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.inscriptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.inscriptions h1 {
+    font-family: 'Rufina';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 100%;
+    color: #224F34;
+    margin-bottom: 20px;
+}
+
+.inscriptions p {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    color: #224F34;
+}
+
+.selling_img {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.product_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_box {
+    background-color: #C2E2D3;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.selling_img img {
+    width: 430px;
+    height: 566px;
+    object-fit: cover;
+    display: block;
+}
+
+.product_card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #224F34;
+    margin-bottom: 8px;
+}
+
+.product_card .price {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #224F34;
+}
+
+.product_card .price span {
+    margin: 0 10px;
+    color: #C5C5C5;
+}
+
+.SelBtn {
+    border: 2px solid #224F34;
+    background: transparent;
+    color: #224F34;
+    padding: 16px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.SelBtn:hover {
+    background: #224F34;
+    color: #fff;
+}

@@ -1,0 +1,26 @@
+.main_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 130px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.navigate{
+    display: flex;
+    gap: 57px;
+    color: #224F34;
+    font-style: 22px;
+    text-transform: uppercase;
+}
+
+.login{
+    padding: 11px 41px;
+    background-color: transparent;
+    border: 2px solid #224F34;
+    border-radius: 3px;
+}

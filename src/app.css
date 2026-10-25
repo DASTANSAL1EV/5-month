@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rufina:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+
+}
+
+.container{
+    max-width: 1377px;
+    margin: 0 auto;
+}
+
+.top_container{
+    background-color: #c2efd4;
+}
