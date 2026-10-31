@@ -1,0 +1,132 @@
+.offer {
+    --offer-bg: #c3efd7;
+    --offer-dark: #1f4d33;
+    --offer-dot: #1e9150;
+  
+    position: relative;
+    display: grid;
+    grid-template-columns: 48.5% 1fr;
+    width: 100%;
+    max-width: 1375px;
+    min-height: 595px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: var(--offer-bg);
+    font-family: "Poppins", sans-serif;
+    color: var(--offer-dark);
+    margin-top: 195px;
+  }
+  
+  .offer__media {
+    position: relative;
+  }
+  
+  .offer__square {
+    position: absolute;
+    left: 100px;
+    bottom: 70px;
+    width: 92px;
+    height: 130px;
+    background: #d5f6e3;
+  }
+  
+  .offer__dots {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 140px;
+    height: 140px;
+    background-image: radial-gradient(circle, var(--offer-dot) 4px, transparent 5px);
+    background-size: 37px 37px;
+    background-position: 0 0;
+  }
+  
+  .offer__photo {
+    position: absolute;
+    left: 135px;
+    bottom: 0;
+    height: 550px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  .offer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 84px 40px 73px 0;
+  }
+  
+  .offer__title {
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  .offer__text {
+    max-width: 600px;
+    margin: 24px 0 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.85;
+  }
+  
+  .offer__timer {
+    display: flex;
+    gap: 35px;
+    margin: 36px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .offer__unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(31, 77, 51, 0.08);
+  }
+  
+  .offer__number {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  
+  .offer__label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  
+  .offer__button {
+    width: 235px;
+    height: 74px;
+    margin-top: 36px;
+    border: 0;
+    border-radius: 3px;
+    background: var(--offer-dark);
+    color: #fff;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .offer__button:hover {
+    background: #163823;
+  }
+  
+  .offer__button:focus-visible {
+    outline: 3px solid var(--offer-dot);
+    outline-offset: 3px;
+  }
