@@ -4,6 +4,7 @@ import Selling from "./components/Selling/Selling"
 import './app.css';
 import OurProducts from "./components/Ourproducts/OurProducts";
 import ExclusiveOffer from "./components/ExclusiveOffer/ExclusiveOffer";
+import DesignerClothes from './components/designerClothes/DesignerClothes';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Selling />
         <OurProducts/>
         <ExclusiveOffer/>
+        <DesignerClothes/>
         </div>
     </div>
   )
